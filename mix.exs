@@ -46,7 +46,7 @@ defmodule Hui.MixProject do
   defp deps do
     [
       {:httpoison, "~> 1.5.1"},
-      {:poison, "~> 4.0.1"},
+      {:poison, "~> 3.1"},
       {:ex_doc, "~> 0.19", only: :dev, runtime: false},
       {:bypass, "~> 1.0", only: :test},
       {:dialyxir, "~> 1.0.0-rc.3", only: [:dev], runtime: false},
